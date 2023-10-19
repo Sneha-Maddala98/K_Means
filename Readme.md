@@ -6,23 +6,11 @@ This Python script implements the K-Means clustering algorithm for data clusteri
 
 Before running the script, make sure you have the following libraries installed:
 
-- [NumPy](https://numpy.org/): For numerical operations.
-- [Pandas](https://pandas.pydata.org/): For data manipulation.
-- [argparse](https://docs.python.org/3/library/argparse.html): For command-line arguments.
-
-You can install these libraries using pip:
-
-```bash
-pip install numpy pandas
-```
+- [NumPy] For numerical operations.
+- [Pandas]: For data manipulation.
+- [argparse] For command-line arguments.
 
 ## Usage
-
-To run the script, use the following command:
-
-```bash
-python kmeans.py --data data_file.csv
-```
 
 - `data_file.csv`: The path to the CSV file containing your dataset. The CSV file should have columns for data points, and each point should have an 'x' and 'y' value. The 'label' column is used to represent the cluster label.
 
@@ -37,13 +25,6 @@ The script implements the K-Means algorithm with the following steps:
 5. Repeat the process until there is no change in cluster assignments.
 6. Print the centroids for each cluster.
 
-## Example
-
-Here is an example command to run the script:
-
-```bash
-python kmeans.py --data Example.csv
-```
 
 This will load the dataset from `Example.csv` and perform K-Means clustering to partition the data into clusters.
 
